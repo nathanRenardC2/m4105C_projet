@@ -35,6 +35,7 @@ public:
 	
 private:
 	MyImage *m_image ;		// used to load and process the image
+	unsigned char* dataCopy;
 	wxBitmap m_bitmap ;	// used to display the image
 	int m_width;
 	int m_height;
@@ -296,8 +297,9 @@ void MyPanel::DesaturateImage() {
 
 /*void MyPanel::ThresholdImage() {
 	MyThresholdDialog *dlg = new MyThresholdDialog(this, -1, wxT("Threshold"), wxDefaultPosition, wxSize(250,140)) ;
-	dlg->ShowModal() ;
-	m_image->Threshold(dlg->m_threshold->GetValue());
+	if(dlg->ShowModal() == wxID_OK) {
+		m_image->Threshold(dlg->m_threshold->GetValue());
+	}
 	delete dlg;
 	Refresh();
 }*/
@@ -305,23 +307,34 @@ void MyPanel::DesaturateImage() {
 wxDEFINE_EVENT(MON_EVENEMENT, wxCommandEvent);
 
 void MyFrame::OnThresholdImage(wxCommandEvent& event) {
-	std::cout << "HIHI" << std::endl;
 	m_panel->ApplyThreshold(event.GetInt());
 }
 
+// Tentative version dynamique je ne comprends pas pourquoi cela ne marche pas
 void MyPanel::ThresholdImage() {
-	MyImage* copy = new MyImage(*m_image);
-	MyThresholdDialog *dlg = new MyThresholdDialog(this, -1, wxT("Threshold"), wxDefaultPosition, wxSize(250,140));
+	dataCopy = (unsigned char*) malloc(m_height * m_width * 3 * sizeof(unsigned char));
+	unsigned char* data = m_image->GetData();
+	for(int i=0; i<m_height*m_width*3; i++) {
+		dataCopy[i] = data[i];
+	}
+	MyThresholdDialog *dlg = new MyThresholdDialog(this, -1, wxT("Threshold"), wxDefaultPosition, wxSize(250,200));
 	
 	if(dlg->ShowModal() == wxID_CANCEL) {
-		*m_image = *copy;
+		for(int i=0; i<m_height*m_width*3; i++) {
+			data[i] = dataCopy[i];
+		}
+		Refresh();
 	}
-	
-	delete copy;
+	delete dataCopy;
 }
 
 void MyPanel::ApplyThreshold(const int value) {
+	unsigned char* data = m_image->GetData();
+	for(int i=0; i<m_height*m_width*3; i++) {
+		data[i] = dataCopy[i];
+	}
 	m_image->Threshold(value);
+	Refresh();
 }
 
 void MyPanel::PosterizeImage() {

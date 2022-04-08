@@ -9,6 +9,7 @@ class MyThresholdDialog : public wxDialog
 {
 private:	
 	wxButton* m_okButton;
+	wxButton* m_cancelButton;
 public:
 	wxSlider* m_threshold;
 	MyThresholdDialog( wxWindow* parent, wxWindowID id = wxID_ANY, 

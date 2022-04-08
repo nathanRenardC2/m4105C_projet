@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="/users/info/etu-s4/pacotteg/M4105C/M4105C/M4105C.workspace">
-  <int Value="8" Name="m_selectedTab"/>
-  <wxString Value="/users/info/etu-s4/pacotteg/M4105C/M4105C/M4105C.workspace" Name="m_workspaceName"/>
+<Session Name="/users/info/etu-s4/pacotteg/m4105C_projet/M4105C/M4105C/M4105C.workspace">
+  <int Value="11" Name="m_selectedTab"/>
+  <wxString Value="/users/info/etu-s4/pacotteg/m4105C_projet/M4105C/M4105C/M4105C.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/users/info/etu-s4/pacotteg/M4105C/TP2/main.cpp" Name="FileName"/>
@@ -41,14 +41,14 @@
     <TabInfo>
       <wxString Value="/users/info/etu-s4/pacotteg/M4105C/TP2/MyThresholdDialog.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="5" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/users/info/etu-s4/pacotteg/M4105C/TP2/MyThresholdDialog.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="8" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -61,7 +61,7 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/users/info/etu-s4/pacotteg/M4105C/TP2/MyHistogram.cpp" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -70,6 +70,20 @@
       <wxString Value="/usr/include/wx-3.0/wx/event.h" Name="FileName"/>
       <int Value="396" Name="FirstVisibleLine"/>
       <int Value="413" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/users/info/etu-s4/pacotteg/m4105C_projet/M4105C/TP2/MyImage.cpp" Name="FileName"/>
+      <int Value="134" Name="FirstVisibleLine"/>
+      <int Value="148" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/users/info/etu-s4/pacotteg/m4105C_projet/M4105C/TP2/main.cpp" Name="FileName"/>
+      <int Value="296" Name="FirstVisibleLine"/>
+      <int Value="309" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
