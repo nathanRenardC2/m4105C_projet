@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="M4105C" Database="" Version="10000">
+  <Project Name="hello_world" Path="../hello_world/hello_world.project" Active="No"/>
+  <Project Name="TP2" Path="../TP2/TP2.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="hello_world" ConfigName="Debug"/>
+      <Project Name="TP2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="hello_world" ConfigName="Release"/>
+      <Project Name="TP2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
