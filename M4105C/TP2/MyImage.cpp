@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+// TEST
 
 MyImage::MyImage(const wxString& fileName)
 : wxImage(fileName) 

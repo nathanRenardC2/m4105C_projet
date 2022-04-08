@@ -4,6 +4,282 @@
 
 
 
+__TBB_tbb_config_H	/usr/include/tbb/tbb_config.h	/^#define __TBB_tbb_config_H$/;"	macro	line:18
+__TBB_TODO	/usr/include/tbb/tbb_config.h	/^#define __TBB_TODO 0$/;"	macro	line:31
+__TBB_GCC_VERSION	/usr/include/tbb/tbb_config.h	/^#define __TBB_GCC_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100 + __GNUC_PATCHLEVEL__)$/;"	macro	line:41
+__TBB_GLIBCXX_VERSION	/usr/include/tbb/tbb_config.h	/^#define __TBB_GLIBCXX_VERSION TBB_USE_GLIBCXX_VERSION$/;"	macro	line:48
+__TBB_GLIBCXX_VERSION	/usr/include/tbb/tbb_config.h	/^#define __TBB_GLIBCXX_VERSION (_GLIBCXX_RELEASE*10000)$/;"	macro	line:51
+__TBB_GLIBCXX_VERSION	/usr/include/tbb/tbb_config.h	/^#define __TBB_GLIBCXX_VERSION __TBB_GCC_VERSION$/;"	macro	line:54
+__TBB_CLANG_VERSION	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CLANG_VERSION (__clang_major__ * 10000 + __clang_minor__ * 100 + __clang_patchlevel__)$/;"	macro	line:59
+__TBB_IOS	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IOS 1$/;"	macro	line:64
+__TBB_MACOS_TARGET_VERSION	/usr/include/tbb/tbb_config.h	/^        #define __TBB_MACOS_TARGET_VERSION  (100000 + 10*(__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ - 1000))$/;"	macro	line:71
+__TBB_MACOS_TARGET_VERSION	/usr/include/tbb/tbb_config.h	/^        #define __TBB_MACOS_TARGET_VERSION  __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__$/;"	macro	line:73
+__TBB_x86_64	/usr/include/tbb/tbb_config.h	/^#       define __TBB_x86_64 1$/;"	macro	line:81
+__TBB_ipf	/usr/include/tbb/tbb_config.h	/^#       define __TBB_ipf 1$/;"	macro	line:83
+__TBB_x86_32	/usr/include/tbb/tbb_config.h	/^#       define __TBB_x86_32 1$/;"	macro	line:85
+__TBB_generic_arch	/usr/include/tbb/tbb_config.h	/^#       define __TBB_generic_arch 1$/;"	macro	line:87
+__TBB_generic_os	/usr/include/tbb/tbb_config.h	/^#       define __TBB_generic_os 1$/;"	macro	line:91
+__TBB_generic_arch	/usr/include/tbb/tbb_config.h	/^#       define __TBB_generic_arch 1$/;"	macro	line:94
+__TBB_x86_64	/usr/include/tbb/tbb_config.h	/^#       define __TBB_x86_64 1$/;"	macro	line:96
+__TBB_ipf	/usr/include/tbb/tbb_config.h	/^#       define __TBB_ipf 1$/;"	macro	line:98
+__TBB_x86_32	/usr/include/tbb/tbb_config.h	/^#       define __TBB_x86_32 1$/;"	macro	line:100
+__TBB_generic_arch	/usr/include/tbb/tbb_config.h	/^#       define __TBB_generic_arch 1$/;"	macro	line:102
+__TBB_DEFINE_MIC	/usr/include/tbb/tbb_config.h	/^#define __TBB_DEFINE_MIC 1$/;"	macro	line:107
+__TBB_TSX_AVAILABLE	/usr/include/tbb/tbb_config.h	/^#define __TBB_TSX_AVAILABLE  ((__TBB_x86_32 || __TBB_x86_64) && !__TBB_DEFINE_MIC)$/;"	macro	line:110
+__INTEL_COMPILER	/usr/include/tbb/tbb_config.h	/^    #undef __INTEL_COMPILER$/;"	macro	line:116
+__INTEL_COMPILER	/usr/include/tbb/tbb_config.h	/^    #define __INTEL_COMPILER 1210$/;"	macro	line:117
+__TBB_USE_OPTIONAL_RTTI	/usr/include/tbb/tbb_config.h	/^#define __TBB_USE_OPTIONAL_RTTI __has_feature(cxx_rtti)$/;"	macro	line:121
+__TBB_USE_OPTIONAL_RTTI	/usr/include/tbb/tbb_config.h	/^#define __TBB_USE_OPTIONAL_RTTI 1$/;"	macro	line:123
+__TBB_USE_OPTIONAL_RTTI	/usr/include/tbb/tbb_config.h	/^#define __TBB_USE_OPTIONAL_RTTI (__GXX_RTTI || __RTTI || __INTEL_RTTI__)$/;"	macro	line:125
+__TBB_GCC_WARNING_SUPPRESSION_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_WARNING_SUPPRESSION_PRESENT 1$/;"	macro	line:130
+__TBB_CPP11_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_PRESENT (__cplusplus >= 201103L || _MSC_VER >= 1900)$/;"	macro	line:149
+__TBB_CPP17_FALLTHROUGH_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP17_FALLTHROUGH_PRESENT (__cplusplus >= 201703L)$/;"	macro	line:151
+__TBB_FALLTHROUGH_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_FALLTHROUGH_PRESENT       (__TBB_GCC_VERSION >= 70000 && !__INTEL_COMPILER)$/;"	macro	line:152
+__INTEL_CXX11_MODE__	/usr/include/tbb/tbb_config.h	/^    #define __INTEL_CXX11_MODE__ (__GXX_EXPERIMENTAL_CXX0X__ || (_MSC_VER && __STDC_HOSTED__))$/;"	macro	line:160
+__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT          (__INTEL_CXX11_MODE__ && __VARIADIC_TEMPLATES)$/;"	macro	line:168
+__TBB_CPP11_RVALUE_REF_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_RVALUE_REF_PRESENT                  ((_MSC_VER >= 1700 || __GXX_EXPERIMENTAL_CXX0X__ && (__TBB_GLIBCXX_VERSION >= 40500 || _LIBCPP_VERSION)) && __INTEL_COMPILER >= 1400)$/;"	macro	line:171
+__TBB_IMPLICIT_MOVE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_MOVE_PRESENT                     (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1400 && (_MSC_VER >= 1900 || __TBB_GCC_VERSION >= 40600 || __clang__))$/;"	macro	line:172
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_EXCEPTION_PTR_PRESENT                 ( __INTEL_COMPILER > 1300                                                \\$/;"	macro	line:174
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_EXCEPTION_PTR_PRESENT                 (__GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1200)$/;"	macro	line:182
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_EXCEPTION_PTR_PRESENT                 (__GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1300)$/;"	macro	line:184
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_EXCEPTION_PTR_PRESENT                 __GXX_EXPERIMENTAL_CXX0X__$/;"	macro	line:186
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_EXCEPTION_PTR_PRESENT                 0$/;"	macro	line:188
+__TBB_STATIC_ASSERT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_STATIC_ASSERT_PRESENT                     (__INTEL_CXX11_MODE__ || _MSC_VER >= 1600)$/;"	macro	line:190
+__TBB_CPP11_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TUPLE_PRESENT                       (_MSC_VER >= 1600 || __GXX_EXPERIMENTAL_CXX0X__ && (__TBB_GLIBCXX_VERSION >= 40300 || _LIBCPP_VERSION))$/;"	macro	line:191
+__TBB_INITIALIZER_LISTS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_INITIALIZER_LISTS_PRESENT                 (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1400 && (_MSC_VER >= 1800 || __TBB_GLIBCXX_VERSION >= 40400 || _LIBCPP_VERSION))$/;"	macro	line:192
+__TBB_CONSTEXPR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONSTEXPR_PRESENT                         (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1400)$/;"	macro	line:193
+__TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT        (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1200)$/;"	macro	line:194
+__TBB_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NOEXCEPT_PRESENT                          (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1300 && (__TBB_GLIBCXX_VERSION >= 40600 || _LIBCPP_VERSION || _MSC_VER))$/;"	macro	line:196
+__TBB_CPP11_STD_BEGIN_END_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_STD_BEGIN_END_PRESENT               (_MSC_VER >= 1700 || __GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1310 && (__TBB_GLIBCXX_VERSION >= 40600 || _LIBCPP_VERSION))$/;"	macro	line:197
+__TBB_CPP11_AUTO_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_AUTO_PRESENT                        (_MSC_VER >= 1600 || __GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1210)$/;"	macro	line:198
+__TBB_CPP11_DECLTYPE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DECLTYPE_PRESENT                    (_MSC_VER >= 1600 || __GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1210)$/;"	macro	line:199
+__TBB_CPP11_LAMBDAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_LAMBDAS_PRESENT                     (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1200)$/;"	macro	line:200
+__TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT  (_MSC_VER >= 1800 || __GXX_EXPERIMENTAL_CXX0X__ && __INTEL_COMPILER >= 1210)$/;"	macro	line:201
+__TBB_OVERRIDE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_OVERRIDE_PRESENT                          (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1400)$/;"	macro	line:202
+__TBB_ALIGNAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNAS_PRESENT                           (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1500)$/;"	macro	line:203
+__TBB_CPP11_TEMPLATE_ALIASES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TEMPLATE_ALIASES_PRESENT            (__INTEL_CXX11_MODE__ && __INTEL_COMPILER >= 1210)$/;"	macro	line:204
+__TBB_CPP14_INTEGER_SEQUENCE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_INTEGER_SEQUENCE_PRESENT            (__cplusplus >= 201402L)$/;"	macro	line:205
+__TBB_CPP14_VARIABLE_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_VARIABLE_TEMPLATES_PRESENT          (__cplusplus >= 201402L)$/;"	macro	line:206
+__TBB_CPP17_DEDUCTION_GUIDES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_DEDUCTION_GUIDES_PRESENT            (__INTEL_COMPILER > 1910) \/\/ a future version$/;"	macro	line:207
+__TBB_CPP17_INVOKE_RESULT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_INVOKE_RESULT_PRESENT               (__cplusplus >= 201703L)$/;"	macro	line:208
+__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT          __has_feature(__cxx_variadic_templates__)$/;"	macro	line:211
+__TBB_CPP11_RVALUE_REF_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_RVALUE_REF_PRESENT                  (__has_feature(__cxx_rvalue_references__) && (_LIBCPP_VERSION || __TBB_GLIBCXX_VERSION >= 40500))$/;"	macro	line:212
+__TBB_IMPLICIT_MOVE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_MOVE_PRESENT                     __has_feature(cxx_implicit_moves)$/;"	macro	line:213
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_EXCEPTION_PTR_PRESENT                     (__cplusplus >= 201103L && (_LIBCPP_VERSION || __TBB_GLIBCXX_VERSION >= 40600))$/;"	macro	line:215
+__TBB_STATIC_ASSERT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_STATIC_ASSERT_PRESENT                     __has_feature(__cxx_static_assert__)$/;"	macro	line:216
+__TBB_CPP11_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_CPP11_TUPLE_PRESENT                   1$/;"	macro	line:218
+__TBB_INITIALIZER_LISTS_PRESENT	/usr/include/tbb/tbb_config.h	/^        #define __TBB_INITIALIZER_LISTS_PRESENT             1$/;"	macro	line:221
+__TBB_CONSTEXPR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONSTEXPR_PRESENT                         __has_feature(__cxx_constexpr__)$/;"	macro	line:223
+__TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT        (__has_feature(__cxx_defaulted_functions__) && __has_feature(__cxx_deleted_functions__))$/;"	macro	line:224
+__TBB_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NOEXCEPT_PRESENT                          (__cplusplus >= 201103L)$/;"	macro	line:226
+__TBB_CPP11_STD_BEGIN_END_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_STD_BEGIN_END_PRESENT               (__has_feature(__cxx_range_for__) && (_LIBCPP_VERSION || __TBB_GLIBCXX_VERSION >= 40600))$/;"	macro	line:227
+__TBB_CPP11_AUTO_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_AUTO_PRESENT                        __has_feature(__cxx_auto_type__)$/;"	macro	line:228
+__TBB_CPP11_DECLTYPE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DECLTYPE_PRESENT                    __has_feature(__cxx_decltype__)$/;"	macro	line:229
+__TBB_CPP11_LAMBDAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_LAMBDAS_PRESENT                     __has_feature(cxx_lambdas)$/;"	macro	line:230
+__TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT  __has_feature(cxx_default_function_template_args)$/;"	macro	line:231
+__TBB_OVERRIDE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_OVERRIDE_PRESENT                          __has_feature(cxx_override_control)$/;"	macro	line:232
+__TBB_ALIGNAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNAS_PRESENT                           __has_feature(cxx_alignas)$/;"	macro	line:233
+__TBB_CPP11_TEMPLATE_ALIASES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TEMPLATE_ALIASES_PRESENT            __has_feature(cxx_alias_templates)$/;"	macro	line:234
+__TBB_CPP14_INTEGER_SEQUENCE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_INTEGER_SEQUENCE_PRESENT            (__cplusplus >= 201402L)$/;"	macro	line:235
+__TBB_CPP14_VARIABLE_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_VARIABLE_TEMPLATES_PRESENT          (__has_feature(cxx_variable_templates))$/;"	macro	line:236
+__TBB_CPP17_DEDUCTION_GUIDES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_DEDUCTION_GUIDES_PRESENT            (__has_feature(__cpp_deduction_guides))$/;"	macro	line:237
+__TBB_CPP17_INVOKE_RESULT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_INVOKE_RESULT_PRESENT               (__has_feature(__cpp_lib_is_invocable))$/;"	macro	line:238
+__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT          __GXX_EXPERIMENTAL_CXX0X__$/;"	macro	line:240
+__TBB_CPP11_VARIADIC_FIXED_LENGTH_EXP_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_FIXED_LENGTH_EXP_PRESENT   (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40700)$/;"	macro	line:241
+__TBB_CPP11_RVALUE_REF_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_RVALUE_REF_PRESENT                  (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40500)$/;"	macro	line:242
+__TBB_IMPLICIT_MOVE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_MOVE_PRESENT                     (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40600)$/;"	macro	line:243
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_EXCEPTION_PTR_PRESENT                     (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40404 && (__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 || (__TBB_GCC_VERSION >= 70000)))$/;"	macro	line:248
+__TBB_STATIC_ASSERT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_STATIC_ASSERT_PRESENT                     (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40300)$/;"	macro	line:249
+__TBB_CPP11_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TUPLE_PRESENT                       (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40300)$/;"	macro	line:250
+__TBB_INITIALIZER_LISTS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_INITIALIZER_LISTS_PRESENT                 (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40400)$/;"	macro	line:251
+__TBB_CONSTEXPR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONSTEXPR_PRESENT                         (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40400)$/;"	macro	line:253
+__TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT        (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40400)$/;"	macro	line:254
+__TBB_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NOEXCEPT_PRESENT                          (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40600)$/;"	macro	line:255
+__TBB_CPP11_STD_BEGIN_END_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_STD_BEGIN_END_PRESENT               (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40600)$/;"	macro	line:256
+__TBB_CPP11_AUTO_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_AUTO_PRESENT                        (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40400)$/;"	macro	line:257
+__TBB_CPP11_DECLTYPE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DECLTYPE_PRESENT                    (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40400)$/;"	macro	line:258
+__TBB_CPP11_LAMBDAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_LAMBDAS_PRESENT                     (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40500)$/;"	macro	line:259
+__TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT  (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40300)$/;"	macro	line:260
+__TBB_OVERRIDE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_OVERRIDE_PRESENT                          (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40700)$/;"	macro	line:261
+__TBB_ALIGNAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNAS_PRESENT                           (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40800)$/;"	macro	line:262
+__TBB_CPP11_TEMPLATE_ALIASES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TEMPLATE_ALIASES_PRESENT            (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GCC_VERSION >= 40700)$/;"	macro	line:263
+__TBB_CPP14_INTEGER_SEQUENCE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_INTEGER_SEQUENCE_PRESENT            (__cplusplus >= 201402L     && __TBB_GCC_VERSION >= 50000)$/;"	macro	line:264
+__TBB_CPP14_VARIABLE_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_VARIABLE_TEMPLATES_PRESENT          (__cplusplus >= 201402L     && __TBB_GCC_VERSION >= 50000)$/;"	macro	line:265
+__TBB_CPP17_DEDUCTION_GUIDES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_DEDUCTION_GUIDES_PRESENT            (__cpp_deduction_guides >= 201606L)$/;"	macro	line:266
+__TBB_CPP17_INVOKE_RESULT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_INVOKE_RESULT_PRESENT               (__cplusplus >= 201703L     && __TBB_GCC_VERSION >= 70000)$/;"	macro	line:267
+__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT          (_MSC_VER >= 1800)$/;"	macro	line:272
+__TBB_CPP11_RVALUE_REF_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_RVALUE_REF_PRESENT                  (_MSC_VER >= 1700 && (!__INTEL_COMPILER || __INTEL_COMPILER >= 1400))$/;"	macro	line:274
+__TBB_IMPLICIT_MOVE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_MOVE_PRESENT                     (_MSC_VER >= 1900)$/;"	macro	line:275
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_EXCEPTION_PTR_PRESENT                     (_MSC_VER >= 1600)$/;"	macro	line:276
+__TBB_STATIC_ASSERT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_STATIC_ASSERT_PRESENT                     (_MSC_VER >= 1600)$/;"	macro	line:277
+__TBB_CPP11_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TUPLE_PRESENT                       (_MSC_VER >= 1600)$/;"	macro	line:278
+__TBB_INITIALIZER_LISTS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_INITIALIZER_LISTS_PRESENT                 (_MSC_VER >= 1800)$/;"	macro	line:279
+__TBB_CONSTEXPR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONSTEXPR_PRESENT                         (_MSC_VER >= 1900)$/;"	macro	line:280
+__TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT        (_MSC_VER >= 1800)$/;"	macro	line:281
+__TBB_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NOEXCEPT_PRESENT                          (_MSC_VER >= 1900)$/;"	macro	line:282
+__TBB_CPP11_STD_BEGIN_END_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_STD_BEGIN_END_PRESENT               (_MSC_VER >= 1700)$/;"	macro	line:283
+__TBB_CPP11_AUTO_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_AUTO_PRESENT                        (_MSC_VER >= 1600)$/;"	macro	line:284
+__TBB_CPP11_DECLTYPE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DECLTYPE_PRESENT                    (_MSC_VER >= 1600)$/;"	macro	line:285
+__TBB_CPP11_LAMBDAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_LAMBDAS_PRESENT                     (_MSC_VER >= 1600)$/;"	macro	line:286
+__TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT  (_MSC_VER >= 1800)$/;"	macro	line:287
+__TBB_OVERRIDE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_OVERRIDE_PRESENT                          (_MSC_VER >= 1700)$/;"	macro	line:288
+__TBB_ALIGNAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNAS_PRESENT                           (_MSC_VER >= 1900)$/;"	macro	line:289
+__TBB_CPP11_TEMPLATE_ALIASES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TEMPLATE_ALIASES_PRESENT            (_MSC_VER >= 1800)$/;"	macro	line:290
+__TBB_CPP14_INTEGER_SEQUENCE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_INTEGER_SEQUENCE_PRESENT            (_MSC_VER >= 1900)$/;"	macro	line:291
+__TBB_CPP14_VARIABLE_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_VARIABLE_TEMPLATES_PRESENT          (_MSC_FULL_VER >= 190023918 && (!__INTEL_COMPILER || __INTEL_COMPILER >= 1700))$/;"	macro	line:293
+__TBB_CPP17_DEDUCTION_GUIDES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_DEDUCTION_GUIDES_PRESENT            (_MSVC_LANG >= 201703L && _MSC_VER >= 1914)$/;"	macro	line:294
+__TBB_CPP17_INVOKE_RESULT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_INVOKE_RESULT_PRESENT               (_MSVC_LANG >= 201703L && _MSC_VER >= 1911)$/;"	macro	line:295
+__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT          __TBB_CPP11_PRESENT$/;"	macro	line:297
+__TBB_CPP11_RVALUE_REF_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_RVALUE_REF_PRESENT                  __TBB_CPP11_PRESENT$/;"	macro	line:298
+__TBB_IMPLICIT_MOVE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_MOVE_PRESENT                     __TBB_CPP11_PRESENT$/;"	macro	line:299
+__TBB_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_EXCEPTION_PTR_PRESENT                     __TBB_CPP11_PRESENT$/;"	macro	line:300
+__TBB_STATIC_ASSERT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_STATIC_ASSERT_PRESENT                     __TBB_CPP11_PRESENT$/;"	macro	line:301
+__TBB_CPP11_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TUPLE_PRESENT                       __TBB_CPP11_PRESENT$/;"	macro	line:302
+__TBB_INITIALIZER_LISTS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_INITIALIZER_LISTS_PRESENT                 __TBB_CPP11_PRESENT$/;"	macro	line:303
+__TBB_CONSTEXPR_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONSTEXPR_PRESENT                         __TBB_CPP11_PRESENT$/;"	macro	line:304
+__TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT        __TBB_CPP11_PRESENT$/;"	macro	line:305
+__TBB_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NOEXCEPT_PRESENT                          __TBB_CPP11_PRESENT$/;"	macro	line:306
+__TBB_CPP11_STD_BEGIN_END_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_STD_BEGIN_END_PRESENT               __TBB_CPP11_PRESENT$/;"	macro	line:307
+__TBB_CPP11_AUTO_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_AUTO_PRESENT                        __TBB_CPP11_PRESENT$/;"	macro	line:308
+__TBB_CPP11_DECLTYPE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DECLTYPE_PRESENT                    __TBB_CPP11_PRESENT$/;"	macro	line:309
+__TBB_CPP11_LAMBDAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_LAMBDAS_PRESENT                     __TBB_CPP11_PRESENT$/;"	macro	line:310
+__TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_DEFAULT_FUNC_TEMPLATE_ARGS_PRESENT  __TBB_CPP11_PRESENT$/;"	macro	line:311
+__TBB_OVERRIDE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_OVERRIDE_PRESENT                          __TBB_CPP11_PRESENT$/;"	macro	line:312
+__TBB_ALIGNAS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNAS_PRESENT                           __TBB_CPP11_PRESENT$/;"	macro	line:313
+__TBB_CPP11_TEMPLATE_ALIASES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP11_TEMPLATE_ALIASES_PRESENT            __TBB_CPP11_PRESENT$/;"	macro	line:314
+__TBB_CPP14_INTEGER_SEQUENCE_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_INTEGER_SEQUENCE_PRESENT            (__cplusplus >= 201402L)$/;"	macro	line:315
+__TBB_CPP14_VARIABLE_TEMPLATES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP14_VARIABLE_TEMPLATES_PRESENT          (__cplusplus >= 201402L)$/;"	macro	line:316
+__TBB_CPP17_DEDUCTION_GUIDES_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_DEDUCTION_GUIDES_PRESENT            (__cplusplus >= 201703L)$/;"	macro	line:317
+__TBB_CPP17_INVOKE_RESULT_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CPP17_INVOKE_RESULT_PRESENT               (__cplusplus >= 201703L)$/;"	macro	line:318
+__TBB_CPP11_ARRAY_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_ARRAY_PRESENT                           (_MSC_VER >= 1700 || _LIBCPP_VERSION || __GXX_EXPERIMENTAL_CXX0X__ && __TBB_GLIBCXX_VERSION >= 40300)$/;"	macro	line:323
+__TBB_CPP11_VARIADIC_FIXED_LENGTH_EXP_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_VARIADIC_FIXED_LENGTH_EXP_PRESENT       __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT$/;"	macro	line:326
+__TBB_CPP11_VARIADIC_TUPLE_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_VARIADIC_TUPLE_PRESENT                  (!_MSC_VER || _MSC_VER >= 1800)$/;"	macro	line:328
+__TBB_CPP11_TYPE_PROPERTIES_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_TYPE_PROPERTIES_PRESENT                 (_LIBCPP_VERSION || _MSC_VER >= 1700 || (__TBB_GLIBCXX_VERSION >= 50000 && __GXX_EXPERIMENTAL_CXX0X__))$/;"	macro	line:330
+__TBB_CPP11_IS_COPY_CONSTRUCTIBLE_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_IS_COPY_CONSTRUCTIBLE_PRESENT           (__GXX_EXPERIMENTAL_CXX0X__ && __TBB_GLIBCXX_VERSION >= 40700 || __TBB_CPP11_TYPE_PROPERTIES_PRESENT)$/;"	macro	line:332
+__TBB_MOVE_IF_NOEXCEPT_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_MOVE_IF_NOEXCEPT_PRESENT                      (__TBB_NOEXCEPT_PRESENT && (__TBB_GLIBCXX_VERSION >= 40700 || _MSC_VER >= 1900 || _LIBCPP_VERSION))$/;"	macro	line:335
+__TBB_ALLOCATOR_TRAITS_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_ALLOCATOR_TRAITS_PRESENT                      (__cplusplus >= 201103L && _LIBCPP_VERSION  || _MSC_VER >= 1800 ||  \\$/;"	macro	line:336
+__TBB_MAKE_EXCEPTION_PTR_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_MAKE_EXCEPTION_PTR_PRESENT                    (__TBB_EXCEPTION_PTR_PRESENT && (_MSC_VER >= 1700 || __TBB_GLIBCXX_VERSION >= 40600 || _LIBCPP_VERSION || __SUNPRO_CC))$/;"	macro	line:338
+__TBB_CPP11_SMART_POINTERS_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_SMART_POINTERS_PRESENT                  ( _MSC_VER >= 1600 || _LIBCPP_VERSION   \\$/;"	macro	line:341
+__TBB_CPP11_FUTURE_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_FUTURE_PRESENT                          (_MSC_VER >= 1700 || __TBB_GLIBCXX_VERSION >= 40600 && __GXX_EXPERIMENTAL_CXX0X__ || _LIBCPP_VERSION)$/;"	macro	line:345
+__TBB_CPP11_GET_NEW_HANDLER_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_GET_NEW_HANDLER_PRESENT                 (_MSC_VER >= 1900 || __TBB_GLIBCXX_VERSION >= 40900 && __GXX_EXPERIMENTAL_CXX0X__ || _LIBCPP_VERSION)$/;"	macro	line:347
+__TBB_CPP17_UNCAUGHT_EXCEPTIONS_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP17_UNCAUGHT_EXCEPTIONS_PRESENT             (_MSC_VER >= 1900 || __GLIBCXX__ && __cpp_lib_uncaught_exceptions \\$/;"	macro	line:349
+__TBB_CPP17_MEMORY_RESOURCE_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP17_MEMORY_RESOURCE_PRESENT                 (_MSC_VER >= 1913 && (_MSVC_LANG > 201402L || __cplusplus > 201402L) || \\$/;"	macro	line:353
+__TBB_CPP17_HW_INTERFERENCE_SIZE_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP17_HW_INTERFERENCE_SIZE_PRESENT            (_MSC_VER >= 1911)$/;"	macro	line:355
+__TBB_STD_SWAP_HEADER	/usr/include/tbb/tbb_config.h	/^#define __TBB_STD_SWAP_HEADER <utility>$/;"	macro	line:358
+__TBB_STD_SWAP_HEADER	/usr/include/tbb/tbb_config.h	/^#define __TBB_STD_SWAP_HEADER <algorithm>$/;"	macro	line:360
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4	/usr/include/tbb/tbb_config.h	/^    #define __GCC_HAVE_SYNC_COMPARE_AND_SWAP_4 1$/;"	macro	line:366
+_GLIBCXX_ATOMIC_BUILTINS_4	/usr/include/tbb/tbb_config.h	/^    #define _GLIBCXX_ATOMIC_BUILTINS_4$/;"	macro	line:371
+__TBB_ATTRIBUTE_ALIGNED_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ATTRIBUTE_ALIGNED_PRESENT 1$/;"	macro	line:376
+__TBB_DECLSPEC_ALIGN_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DECLSPEC_ALIGN_PRESENT 1$/;"	macro	line:378
+__TBB_GCC_BUILTIN_ATOMICS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_BUILTIN_ATOMICS_PRESENT 1$/;"	macro	line:387
+TBB_USE_GCC_BUILTINS	/usr/include/tbb/tbb_config.h	/^    #define TBB_USE_GCC_BUILTINS 1$/;"	macro	line:393
+__TBB_ICC_BUILTIN_ATOMICS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ICC_BUILTIN_ATOMICS_PRESENT 1$/;"	macro	line:398
+__TBB_MSVC_PART_WORD_INTERLOCKED_INTRINSICS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_MSVC_PART_WORD_INTERLOCKED_INTRINSICS_PRESENT 1$/;"	macro	line:402
+__TBB_TSX_INTRINSICS_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_TSX_INTRINSICS_PRESENT ((__RTM__ || _MSC_VER>=1700 || __INTEL_COMPILER>=1300) && !__TBB_DEFINE_MIC && !__ANDROID__)$/;"	macro	line:405
+__TBB_CONCAT_AUX	/usr/include/tbb/tbb_config.h	/^#define __TBB_CONCAT_AUX(A,B) A##B$/;"	macro	line:408
+__TBB_CONCAT	/usr/include/tbb/tbb_config.h	/^#define __TBB_CONCAT(A,B) __TBB_CONCAT_AUX(A,B)$/;"	macro	line:411
+__TBB_IS_MACRO_EMPTY	/usr/include/tbb/tbb_config.h	/^#define __TBB_IS_MACRO_EMPTY(A,IGNORED) __TBB_CONCAT_AUX(__TBB_MACRO_EMPTY,A)$/;"	macro	line:413
+__TBB_MACRO_EMPTY	/usr/include/tbb/tbb_config.h	/^#define __TBB_MACRO_EMPTY 1$/;"	macro	line:414
+__TBB_IS__DEBUG_EMPTY	/usr/include/tbb/tbb_config.h	/^#define __TBB_IS__DEBUG_EMPTY (__TBB_IS_MACRO_EMPTY(_DEBUG,IGNORED)==__TBB_MACRO_EMPTY)$/;"	macro	line:427
+TBB_USE_DEBUG	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_DEBUG 1$/;"	macro	line:429
+TBB_USE_DEBUG	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_DEBUG _DEBUG$/;"	macro	line:431
+TBB_USE_DEBUG	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_DEBUG 0$/;"	macro	line:434
+TBB_USE_ASSERT	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_ASSERT TBB_USE_DEBUG$/;"	macro	line:439
+TBB_USE_THREADING_TOOLS	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_THREADING_TOOLS TBB_USE_DEBUG$/;"	macro	line:443
+TBB_USE_PERFORMANCE_WARNINGS	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_PERFORMANCE_WARNINGS TBB_PERFORMANCE_WARNINGS$/;"	macro	line:448
+TBB_USE_PERFORMANCE_WARNINGS	/usr/include/tbb/tbb_config.h	/^#define TBB_USE_PERFORMANCE_WARNINGS TBB_USE_DEBUG$/;"	macro	line:450
+TBB_USE_EXCEPTIONS	/usr/include/tbb/tbb_config.h	/^        #define TBB_USE_EXCEPTIONS 0$/;"	macro	line:458
+TBB_USE_EXCEPTIONS	/usr/include/tbb/tbb_config.h	/^        #define TBB_USE_EXCEPTIONS 0$/;"	macro	line:464
+TBB_USE_EXCEPTIONS	/usr/include/tbb/tbb_config.h	/^    #define TBB_USE_EXCEPTIONS 1$/;"	macro	line:467
+TBB_IMPLEMENT_CPP0X	/usr/include/tbb/tbb_config.h	/^            #define TBB_IMPLEMENT_CPP0X (__cplusplus < 201103L || !_LIBCPP_VERSION)$/;"	macro	line:475
+TBB_IMPLEMENT_CPP0X	/usr/include/tbb/tbb_config.h	/^            #define TBB_IMPLEMENT_CPP0X (__cplusplus < 201103L || (!__has_include(<thread>) && !__has_include(<condition_variable>)))$/;"	macro	line:477
+TBB_IMPLEMENT_CPP0X	/usr/include/tbb/tbb_config.h	/^        #define TBB_IMPLEMENT_CPP0X (__TBB_GCC_VERSION < 40400 || !__GXX_EXPERIMENTAL_CXX0X__)$/;"	macro	line:480
+TBB_IMPLEMENT_CPP0X	/usr/include/tbb/tbb_config.h	/^        #define TBB_IMPLEMENT_CPP0X (_MSC_VER < 1700)$/;"	macro	line:482
+TBB_IMPLEMENT_CPP0X	/usr/include/tbb/tbb_config.h	/^        #define TBB_IMPLEMENT_CPP0X (!__STDCPP_THREADS__)$/;"	macro	line:485
+TBB_USE_CAPTURED_EXCEPTION	/usr/include/tbb/tbb_config.h	/^        #define TBB_USE_CAPTURED_EXCEPTION 0$/;"	macro	line:493
+TBB_USE_CAPTURED_EXCEPTION	/usr/include/tbb/tbb_config.h	/^        #define TBB_USE_CAPTURED_EXCEPTION 1$/;"	macro	line:495
+__TBB_CONCURRENT_ORDERED_CONTAINERS_PRESENT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONCURRENT_ORDERED_CONTAINERS_PRESENT ( __TBB_CPP11_RVALUE_REF_PRESENT && __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT \\$/;"	macro	line:514
+__TBB_WEAK_SYMBOLS_PRESENT	/usr/include/tbb/tbb_config.h	/^#define __TBB_WEAK_SYMBOLS_PRESENT ( !_WIN32 && !__APPLE__ && !__sun && (__TBB_GCC_VERSION >= 40000 || __INTEL_COMPILER ) )$/;"	macro	line:521
+__TBB_DYNAMIC_LOAD_ENABLED	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DYNAMIC_LOAD_ENABLED 1$/;"	macro	line:526
+__TBB_NO_IMPLICIT_LINKAGE	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NO_IMPLICIT_LINKAGE 1$/;"	macro	line:533
+__TBBMALLOC_NO_IMPLICIT_LINKAGE	/usr/include/tbb/tbb_config.h	/^    #define __TBBMALLOC_NO_IMPLICIT_LINKAGE 1$/;"	macro	line:534
+__TBB_COUNT_TASK_NODES	/usr/include/tbb/tbb_config.h	/^    #define __TBB_COUNT_TASK_NODES TBB_USE_ASSERT$/;"	macro	line:538
+__TBB_TASK_GROUP_CONTEXT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_TASK_GROUP_CONTEXT 1$/;"	macro	line:542
+__TBB_SCHEDULER_OBSERVER	/usr/include/tbb/tbb_config.h	/^    #define __TBB_SCHEDULER_OBSERVER 1$/;"	macro	line:546
+__TBB_FP_CONTEXT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_FP_CONTEXT __TBB_TASK_GROUP_CONTEXT$/;"	macro	line:550
+__TBB_RECYCLE_TO_ENQUEUE	/usr/include/tbb/tbb_config.h	/^#define __TBB_RECYCLE_TO_ENQUEUE __TBB_BUILD \/\/ keep non-official$/;"	macro	line:557
+__TBB_ARENA_OBSERVER	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ARENA_OBSERVER __TBB_SCHEDULER_OBSERVER$/;"	macro	line:560
+__TBB_TASK_ISOLATION	/usr/include/tbb/tbb_config.h	/^    #define __TBB_TASK_ISOLATION 1$/;"	macro	line:564
+__TBB_TASK_PRIORITY	/usr/include/tbb/tbb_config.h	/^    #define __TBB_TASK_PRIORITY (__TBB_TASK_GROUP_CONTEXT)$/;"	macro	line:572
+__TBB_NUMA_SUPPORT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_NUMA_SUPPORT 1$/;"	macro	line:580
+__TBB_SUPPORTS_WORKERS_WAITING_IN_TERMINATE	/usr/include/tbb/tbb_config.h	/^    #define __TBB_SUPPORTS_WORKERS_WAITING_IN_TERMINATE 1$/;"	macro	line:584
+__TBB_ENQUEUE_ENFORCED_CONCURRENCY	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ENQUEUE_ENFORCED_CONCURRENCY 1$/;"	macro	line:588
+__TBB_SURVIVE_THREAD_SWITCH	/usr/include/tbb/tbb_config.h	/^    #define __TBB_SURVIVE_THREAD_SWITCH 1$/;"	macro	line:593
+__TBB_DEFAULT_PARTITIONER	/usr/include/tbb/tbb_config.h	/^#define __TBB_DEFAULT_PARTITIONER tbb::auto_partitioner$/;"	macro	line:597
+__TBB_USE_PROPORTIONAL_SPLIT_IN_BLOCKED_RANGES	/usr/include/tbb/tbb_config.h	/^#define __TBB_USE_PROPORTIONAL_SPLIT_IN_BLOCKED_RANGES 1$/;"	macro	line:601
+__TBB_ENABLE_RANGE_FEEDBACK	/usr/include/tbb/tbb_config.h	/^#define __TBB_ENABLE_RANGE_FEEDBACK 0$/;"	macro	line:605
+__TBB_VARIADIC_MAX	/usr/include/tbb/tbb_config.h	/^    #define __TBB_VARIADIC_MAX _VARIADIC_MAX$/;"	macro	line:609
+__TBB_VARIADIC_MAX	/usr/include/tbb/tbb_config.h	/^        #define __TBB_VARIADIC_MAX 5 \/\/ VS11 setting, issue resolved in VS12$/;"	macro	line:612
+__TBB_VARIADIC_MAX	/usr/include/tbb/tbb_config.h	/^        #define __TBB_VARIADIC_MAX 10 \/\/ VS10 setting$/;"	macro	line:614
+__TBB_VARIADIC_MAX	/usr/include/tbb/tbb_config.h	/^        #define __TBB_VARIADIC_MAX 15$/;"	macro	line:616
+__TBB_DEPRECATED	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED [[deprecated]]$/;"	macro	line:625
+__TBB_DEPRECATED_MSG	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED_MSG(msg) [[deprecated(msg)]]$/;"	macro	line:626
+__TBB_DEPRECATED	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED __declspec(deprecated)$/;"	macro	line:628
+__TBB_DEPRECATED_MSG	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED_MSG(msg) __declspec(deprecated(msg))$/;"	macro	line:629
+__TBB_DEPRECATED	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED __attribute__((deprecated))$/;"	macro	line:631
+__TBB_DEPRECATED_MSG	/usr/include/tbb/tbb_config.h	/^        #define __TBB_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))$/;"	macro	line:632
+__TBB_DEPRECATED	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED$/;"	macro	line:637
+__TBB_DEPRECATED_MSG	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED_MSG(msg)$/;"	macro	line:638
+__TBB_SUPPRESS_INTERNAL_DEPRECATED_MESSAGES	/usr/include/tbb/tbb_config.h	/^    #define __TBB_SUPPRESS_INTERNAL_DEPRECATED_MESSAGES 1$/;"	macro	line:641
+__TBB_DEPRECATED_IN_VERBOSE_MODE	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED_IN_VERBOSE_MODE __TBB_DEPRECATED$/;"	macro	line:645
+__TBB_DEPRECATED_IN_VERBOSE_MODE_MSG	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED_IN_VERBOSE_MODE_MSG(msg) __TBB_DEPRECATED_MSG(msg)$/;"	macro	line:646
+__TBB_DEPRECATED_IN_VERBOSE_MODE	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED_IN_VERBOSE_MODE$/;"	macro	line:648
+__TBB_DEPRECATED_IN_VERBOSE_MODE_MSG	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEPRECATED_IN_VERBOSE_MODE_MSG(msg)$/;"	macro	line:649
+__TBB_WIN8UI_SUPPORT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_WIN8UI_SUPPORT 1$/;"	macro	line:660
+__TBB_WIN8UI_SUPPORT	/usr/include/tbb/tbb_config.h	/^    #define __TBB_WIN8UI_SUPPORT 0$/;"	macro	line:662
+__TBB_GCC_64BIT_ATOMIC_BUILTINS_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_64BIT_ATOMIC_BUILTINS_BROKEN 1$/;"	macro	line:675
+__TBB_GCC_64BIT_ATOMIC_BUILTINS_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_64BIT_ATOMIC_BUILTINS_BROKEN 1$/;"	macro	line:680
+__TBB_ICC_12_0_INL_ASM_FSTCW_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ICC_12_0_INL_ASM_FSTCW_BROKEN 1$/;"	macro	line:684
+__TBB_DEFAULT_DTOR_THROW_SPEC_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_DEFAULT_DTOR_THROW_SPEC_BROKEN 1$/;"	macro	line:691
+__TBB_TEMPLATE_FRIENDS_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_TEMPLATE_FRIENDS_BROKEN 1$/;"	macro	line:697
+__TBB_THROW_ACROSS_MODULE_BOUNDARY_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_THROW_ACROSS_MODULE_BOUNDARY_BROKEN 1$/;"	macro	line:703
+__TBB_ICL_11_1_CODE_GEN_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ICL_11_1_CODE_GEN_BROKEN 1$/;"	macro	line:708
+__TBB_PROTECTED_NESTED_CLASS_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_PROTECTED_NESTED_CLASS_BROKEN 1$/;"	macro	line:713
+__TBB_SSE_STACK_ALIGNMENT_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_SSE_STACK_ALIGNMENT_BROKEN 1$/;"	macro	line:719
+__TBB_GCC_OPTIMIZER_ORDERING_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_OPTIMIZER_ORDERING_BROKEN 1$/;"	macro	line:724
+__TBB_PRIO_INHERIT_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_PRIO_INHERIT_BROKEN 1$/;"	macro	line:730
+__TBB_PLACEMENT_NEW_EXCEPTION_SAFETY_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_PLACEMENT_NEW_EXCEPTION_SAFETY_BROKEN 1$/;"	macro	line:734
+__TBB_ICC_ASM_VOLATILE_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ICC_ASM_VOLATILE_BROKEN 1$/;"	macro	line:740
+__TBB_ALIGNOF_NOT_INSTANTIATED_TYPES_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ALIGNOF_NOT_INSTANTIATED_TYPES_BROKEN 1$/;"	macro	line:746
+__TBB_MAIN_THREAD_AFFINITY_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_MAIN_THREAD_AFFINITY_BROKEN 1$/;"	macro	line:751
+__TBB_LIBSTDCPP_EXCEPTION_HEADERS_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_LIBSTDCPP_EXCEPTION_HEADERS_BROKEN 1$/;"	macro	line:762
+__TBB_ICC_13_0_CPP11_STDLIB_SUPPORT_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ICC_13_0_CPP11_STDLIB_SUPPORT_BROKEN 1$/;"	macro	line:767
+__TBB_GCC_STRICT_ALIASING_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_STRICT_ALIASING_BROKEN 1$/;"	macro	line:772
+__TBB_GCC_CAS8_BUILTIN_INLINING_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_GCC_CAS8_BUILTIN_INLINING_BROKEN 1$/;"	macro	line:781
+__TBB_FORCE_64BIT_ALIGNMENT_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_FORCE_64BIT_ALIGNMENT_BROKEN 1$/;"	macro	line:790
+__TBB_FORCE_64BIT_ALIGNMENT_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_FORCE_64BIT_ALIGNMENT_BROKEN 0$/;"	macro	line:793
+__TBB_ZERO_INIT_WITH_DEFAULTED_CTOR_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_ZERO_INIT_WITH_DEFAULTED_CTOR_BROKEN 1$/;"	macro	line:797
+__TBB_CONST_REF_TO_ARRAY_TEMPLATE_PARAM_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_CONST_REF_TO_ARRAY_TEMPLATE_PARAM_BROKEN 1$/;"	macro	line:803
+__TBB_IF_NO_COPY_CTOR_MOVE_SEMANTICS_BROKEN	/usr/include/tbb/tbb_config.h	/^#define __TBB_IF_NO_COPY_CTOR_MOVE_SEMANTICS_BROKEN (_MSC_VER && (__INTEL_COMPILER >= 1300 && __INTEL_COMPILER <= 1310) && !__INTEL_CXX11_MODE__)$/;"	macro	line:807
+__TBB_CPP11_DECLVAL_BROKEN	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_DECLVAL_BROKEN (_MSC_VER == 1600 || (__GNUC__ && __TBB_GCC_VERSION < 40500) )$/;"	macro	line:809
+__TBB_COPY_FROM_NON_CONST_REF_BROKEN	/usr/include/tbb/tbb_config.h	/^#define __TBB_COPY_FROM_NON_CONST_REF_BROKEN (_MSC_VER == 1700 && __INTEL_COMPILER && __INTEL_COMPILER < 1600)$/;"	macro	line:811
+__TBB_UPCAST_OF_TUPLE_OF_REF_BROKEN	/usr/include/tbb/tbb_config.h	/^#define __TBB_UPCAST_OF_TUPLE_OF_REF_BROKEN 1$/;"	macro	line:816
+__TBB_CPP11_DECLTYPE_OF_FUNCTION_RETURN_TYPE_BROKEN	/usr/include/tbb/tbb_config.h	/^#define __TBB_CPP11_DECLTYPE_OF_FUNCTION_RETURN_TYPE_BROKEN (_MSC_VER == 1600 && !__INTEL_COMPILER)$/;"	macro	line:820
+__TBB_IMPLICIT_COPY_DELETION_BROKEN	/usr/include/tbb/tbb_config.h	/^    #define __TBB_IMPLICIT_COPY_DELETION_BROKEN 1$/;"	macro	line:824
+__TBB_MSVC_UNREACHABLE_CODE_IGNORED	/usr/include/tbb/tbb_config.h	/^    #define __TBB_MSVC_UNREACHABLE_CODE_IGNORED 1$/;"	macro	line:831
+__TBB_ATOMIC_CTORS	/usr/include/tbb/tbb_config.h	/^#define __TBB_ATOMIC_CTORS     (__TBB_CONSTEXPR_PRESENT && __TBB_DEFAULTED_AND_DELETED_FUNC_PRESENT && (!__TBB_ZERO_INIT_WITH_DEFAULTED_CTOR_BROKEN))$/;"	macro	line:834
+__TBB_USE_DLOPEN_REENTRANCY_WORKAROUND	/usr/include/tbb/tbb_config.h	/^#define __TBB_USE_DLOPEN_REENTRANCY_WORKAROUND  (__ANDROID_API__ < 19)$/;"	macro	line:840
+__TBB_ALLOCATOR_CONSTRUCT_VARIADIC	/usr/include/tbb/tbb_config.h	/^#define __TBB_ALLOCATOR_CONSTRUCT_VARIADIC      (__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT && __TBB_CPP11_RVALUE_REF_PRESENT)$/;"	macro	line:843
+__TBB_VARIADIC_PARALLEL_INVOKE	/usr/include/tbb/tbb_config.h	/^#define __TBB_VARIADIC_PARALLEL_INVOKE          (TBB_PREVIEW_VARIADIC_PARALLEL_INVOKE && __TBB_CPP11_VARIADIC_TEMPLATES_PRESENT && __TBB_CPP11_RVALUE_REF_PRESENT)$/;"	macro	line:845
+__TBB_FLOW_GRAPH_CPP11_FEATURES	/usr/include/tbb/tbb_config.h	/^#define __TBB_FLOW_GRAPH_CPP11_FEATURES         (__TBB_CPP11_VARIADIC_TEMPLATES_PRESENT \\$/;"	macro	line:846
+__TBB_PREVIEW_STREAMING_NODE	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_STREAMING_NODE            (__TBB_CPP11_VARIADIC_FIXED_LENGTH_EXP_PRESENT && __TBB_FLOW_GRAPH_CPP11_FEATURES \\$/;"	macro	line:850
+__TBB_PREVIEW_OPENCL_NODE	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_OPENCL_NODE               (__TBB_PREVIEW_STREAMING_NODE && __TBB_CPP11_TEMPLATE_ALIASES_PRESENT)$/;"	macro	line:852
+__TBB_PREVIEW_MESSAGE_BASED_KEY_MATCHING	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_MESSAGE_BASED_KEY_MATCHING (TBB_PREVIEW_FLOW_GRAPH_FEATURES || __TBB_PREVIEW_OPENCL_NODE)$/;"	macro	line:853
+__TBB_PREVIEW_ASYNC_MSG	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_ASYNC_MSG                 (TBB_PREVIEW_FLOW_GRAPH_FEATURES && __TBB_FLOW_GRAPH_CPP11_FEATURES)$/;"	macro	line:854
+__TBB_PREVIEW_FLOW_GRAPH_PRIORITIES	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_FLOW_GRAPH_PRIORITIES     TBB_PREVIEW_FLOW_GRAPH_FEATURES$/;"	macro	line:858
+__TBB_PREVIEW_RESUMABLE_TASKS	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_RESUMABLE_TASKS           ((__TBB_CPF_BUILD || TBB_PREVIEW_RESUMABLE_TASKS) && !__TBB_WIN8UI_SUPPORT && !__ANDROID__ && !__TBB_ipf)$/;"	macro	line:863
+__TBB_PREVIEW_CRITICAL_TASKS	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_CRITICAL_TASKS            (__TBB_CPF_BUILD || __TBB_PREVIEW_FLOW_GRAPH_PRIORITIES || __TBB_PREVIEW_RESUMABLE_TASKS)$/;"	macro	line:867
+__TBB_PREVIEW_FLOW_GRAPH_NODE_SET	/usr/include/tbb/tbb_config.h	/^#define __TBB_PREVIEW_FLOW_GRAPH_NODE_SET       (TBB_PREVIEW_FLOW_GRAPH_FEATURES && __TBB_CPP11_PRESENT && __TBB_FLOW_GRAPH_CPP11_FEATURES)$/;"	macro	line:871
 
 
 
@@ -48,7 +324,9 @@
 
 
 
-
+_ERRNO_H	/usr/include/errno.h	/^#define	_ERRNO_H 1$/;"	macro	line:23
+__attribute_const__	/usr/include/errno.h	/^extern int *__errno_location (void) __THROW __attribute_const__;$/;"	variable	line:37
+errno	/usr/include/errno.h	/^# define errno (*__errno_location ())$/;"	macro	line:38
 
 
 
